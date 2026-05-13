@@ -1,6 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDownIcon, NetworkIcon } from 'lucide-react';
+const heroImg1 = new URL('../assets/images/hero-img1.png', import.meta.url).href;
 export function HeroSection() {
   // Generate random nodes for the background network
   const nodes = Array.from({
@@ -142,10 +142,9 @@ export function HeroSection() {
             {/* Headshot container */}
             <div className="absolute inset-12 rounded-full overflow-hidden border-2 border-accent-blue glow-blue bg-surface flex items-center justify-center">
               <img
-                src="/src/assets/images/hero-img1.png"
+                src={heroImg1}
                 alt="Engineer Portrait"
                 className="w-full h-full object-cover opacity-80 mix-blend-luminosity hover:mix-blend-normal transition-all duration-500" />
-              
               <div className="absolute inset-0 bg-accent-blue/10 mix-blend-overlay"></div>
             </div>
 

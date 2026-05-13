@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 import { ArrowRightIcon, ActivityIcon } from 'lucide-react';
 import { projectsData } from '../data/projects';
 const routeOptimizationImage = new URL('../assets/images/ChatGPT Image May 12, 2026, 03_21_10 PM.png', import.meta.url).href;
+const warehouseScreenshot = new URL('../assets/images/Screenshot 2025-07-03 133135.png', import.meta.url).href;
+const ruralImageA = new URL('../assets/images/20210403_155059.jpg', import.meta.url).href;
+const ruralImageB = new URL('../assets/images/20210330_135048.jpg', import.meta.url).href;
+const putAwayVideo = new URL('../assets/images/PutAway.mp4', import.meta.url).href;
+const productionPlan = new URL('../assets/images/production-plan.png', import.meta.url).href;
 export function ProjectsSection() {
   return (
     <section id="projects" className="py-20 relative">
@@ -229,7 +234,7 @@ export function ProjectsSection() {
                               <div className="w-full h-full flex flex-col">
                                 <div className="flex-1 rounded-lg overflow-hidden border border-surface-light/60">
                                   <img
-                                    src="/src/assets/images/Screenshot 2025-07-03 133135.png"
+                                    src={warehouseScreenshot}
                                     alt="Warehouse layout system visualization"
                                     className="w-full h-full object-cover"
                                   />
@@ -249,12 +254,12 @@ export function ProjectsSection() {
                                 <div className="w-full h-full flex flex-col">
                                   <div className="flex-1 grid grid-cols-2 gap-2 rounded-lg overflow-hidden border border-surface-light/60 p-2">
                                     <img
-                                      src="/src/assets/images/20210403_155059.jpg"
+                                      src={ruralImageA}
                                       alt="Rural road construction photo 1"
                                       className="w-full h-full object-cover rounded"
                                     />
                                     <img
-                                      src="/src/assets/images/20210330_135048.jpg"
+                                      src={ruralImageB}
                                       alt="Rural road construction photo 2"
                                       className="w-full h-full object-cover rounded"
                                     />
@@ -274,7 +279,7 @@ export function ProjectsSection() {
                                   <div className="w-full h-full flex flex-col">
                                     <div className="flex-1 rounded-lg overflow-hidden border border-surface-light/60 relative">
                                       <video
-                                        src="/src/assets/images/PutAway.mp4"
+                                        src={putAwayVideo}
                                         className="w-full h-full object-cover"
                                         autoPlay
                                         loop
@@ -298,7 +303,7 @@ export function ProjectsSection() {
                                     <div className="w-full h-full flex flex-col">
                                       <div className="flex-1 rounded-lg overflow-hidden border border-surface-light/60">
                                         <img
-                                          src="/src/assets/images/production-plan.png"
+                                          src={productionPlan}
                                           alt="Production efficiency plan"
                                           className="w-full h-full object-cover"
                                         />
