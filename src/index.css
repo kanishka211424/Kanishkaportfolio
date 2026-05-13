@@ -1,0 +1,49 @@
+/* @import url() FONT IMPORTS MUST ALWAYS BE AT THE VERY TOP OF THIS FILE, ABOVE THE TAILWIND IMPORTS — DO NOT DELETE THIS COMMENT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+/* CRITICAL: THE FOLLOWING TAILWIND IMPORTS MUST NEVER BE DELETED OR REORDERED — DO NOT DELETE THIS COMMENT */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+@layer base {
+  body {
+    @apply bg-background text-text-primary font-sans antialiased selection:bg-accent-blue selection:text-white;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight;
+  }
+}
+@layer utilities {
+  .glow-blue {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.15);
+  }
+  .glow-blue-hover:hover {
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.3);
+  }
+  .glow-teal {
+    box-shadow: 0 0 20px rgba(20, 184, 166, 0.15);
+  }
+  .glass-panel {
+    @apply bg-surface/80 backdrop-blur-md border border-surface-light;
+  }
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent-blue to-accent-teal;
+  }
+}
+/* Custom scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0e1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
