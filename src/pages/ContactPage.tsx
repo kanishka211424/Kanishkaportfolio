@@ -8,7 +8,7 @@ import {
   SendIcon,
   DownloadIcon,
 } from "lucide-react";
-const cvPdfUrl = "/Kanishka_Geethan_CV.pdf";
+const cvPdfUrl = "/Kanishka Geethan_Resume.pdf";
 export function ContactPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -134,7 +134,7 @@ export function ContactPage() {
           <div className="pt-6 border-t border-surface-light">
             <a
               href={cvPdfUrl}
-              download="Kanishka_Geethan_CV.pdf"
+              download="Kanishka Geethan_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-4 bg-surface border border-surface-light text-text-primary font-mono text-sm rounded hover:border-accent-teal hover:text-white transition-all flex items-center justify-center gap-2 group"

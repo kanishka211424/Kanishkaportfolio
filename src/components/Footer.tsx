@@ -16,7 +16,7 @@ export function Footer() {
                 <ActivityIcon className="w-5 h-5 text-accent-blue" />
               </div>
               <span className="font-display font-bold text-xl tracking-tight text-text-primary">
-                Kanishka Geethan
+                KANISHKA
               </span>
             </Link>
             <p className="text-text-secondary text-sm max-w-sm mb-6">

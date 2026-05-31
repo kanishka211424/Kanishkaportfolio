@@ -73,8 +73,8 @@ export function AboutSection() {
                 </h3>
 
                 <ul className="space-y-4">
-                  <li className="flex items-start gap-3">
-                    <MapPinIcon className="w-5 h-5 text-accent-teal shrink-0 mt-0.5" />
+                  <li className="flex items-center gap-3">
+                    <MapPinIcon className="w-5 h-5 text-accent-teal shrink-0" />
                     <div>
                       <p className="text-sm font-medium text-white">
                         Location
@@ -84,8 +84,8 @@ export function AboutSection() {
                       </p>
                     </div>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <Mails className="w-5 h-5 text-accent-blue shrink-0 mt-0.5" />
+                  <li className="flex items-center gap-3">
+                    <Mails className="w-5 h-5 text-accent-blue shrink-0" />
                     <div>
                       <p className="text-sm font-medium text-white">
                         Gmail
@@ -98,8 +98,8 @@ export function AboutSection() {
                       </a>
                     </div>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <Phone  className="w-5 h-5 text-accent-teal shrink-0 mt-0.5" />
+                  <li className="flex items-center gap-3">
+                    <Phone  className="w-5 h-5 text-accent-teal shrink-0" />
                     <div>
                       <p className="text-sm font-medium text-white">
                         Contact Number
@@ -109,8 +109,8 @@ export function AboutSection() {
                       </p>
                     </div>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <GraduationCapIcon className="w-5 h-5 text-accent-blue shrink-0 mt-0.5" />
+                  <li className="flex items-center gap-3">
+                    <GraduationCapIcon className="w-5 h-5 text-accent-blue shrink-0" />
                     <div>
                       <p className="text-sm font-medium text-white">
                         LinkedIn

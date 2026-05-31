@@ -94,7 +94,7 @@ export function HeroSection() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-4 leading-tight">
-             Engineering Undergraduate <br />
+             SUPPLY CHAIN & LOGISTICS ENGINEER <br />
           </h1>
 
           <p className="text-xl text-text-secondary mb-2 font-light">
