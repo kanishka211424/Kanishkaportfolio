@@ -73,10 +73,10 @@ export function Navbar() {
           </div>
           <div className="flex flex-col">
             <span className="font-display font-bold text-lg leading-none tracking-tight text-text-primary">
-              Kanishka Geethan
+              KANISHKA
             </span>
             <span className="text-[10px] text-accent-teal font-mono tracking-widest uppercase">
-            Engineering undergraduate
+            TMLE
             </span>
           </div>
         </Link>

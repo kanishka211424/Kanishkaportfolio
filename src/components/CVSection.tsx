@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { DownloadIcon, ExternalLinkIcon, FileTextIcon } from 'lucide-react';
-const cvPdfUrl = '/Kanishka_Geethan_CV.pdf';
+const cvPdfUrl = '/Kanishka Geethan_Resume.pdf';
 
 export function CVSection() {
   return (
@@ -63,7 +63,7 @@ export function CVSection() {
               </a>
               <a
                 href={cvPdfUrl}
-                download="Kanishka_Geethan_CV.pdf"
+                download="Kanishka Geethan_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-4 bg-accent-blue text-white font-mono text-sm rounded hover:bg-blue-600 transition-all glow-blue flex items-center gap-2 w-full justify-center group"

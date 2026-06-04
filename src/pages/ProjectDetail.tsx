@@ -6,7 +6,8 @@ import {
   ActivityIcon,
   WrenchIcon,
   CheckCircleIcon,
-  LightbulbIcon } from
+  LightbulbIcon,
+  ExternalLinkIcon } from
 'lucide-react';
 import {
   BarChart,
@@ -144,6 +145,21 @@ export function ProjectDetail() {
         </div>
 
         <div className="space-y-8">
+          {project.website && (
+            <a
+              href={project.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-accent-blue/10 border border-accent-blue/30 rounded-xl p-6 hover:bg-accent-blue/20 transition-colors group">
+              <div className="flex items-center justify-between mb-2">
+                <h3 className="text-lg font-display font-bold text-white">Live Project</h3>
+                <ExternalLinkIcon className="w-5 h-5 text-accent-blue group-hover:translate-x-1 transition-transform" />
+              </div>
+              <p className="text-sm text-text-secondary">Visit the live website</p>
+              <p className="text-xs text-accent-blue mt-2 truncate">{project.website}</p>
+            </a>
+          )}
+
           <div className="bg-surface border border-surface-light rounded-xl p-6">
             <h3 className="text-lg font-display font-bold text-white mb-4 flex items-center gap-2">
               <WrenchIcon className="w-5 h-5 text-accent-blue" /> Tools Used

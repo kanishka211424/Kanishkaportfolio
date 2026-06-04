@@ -14,6 +14,7 @@ export interface Project {
   keyLearnings: string;
   chartData: {name: string;before: number;after: number;}[];
   images?: string[];
+  website?: string;
 }
 
 export const projectsData: Project[] = [
@@ -246,6 +247,7 @@ export const projectsData: Project[] = [
   chartData: [
   { name: 'Pick & Put-away (min)', before: 12, after: 7 },
   { name: 'Travel Distance (m)', before: 450, after: 210 },
-  { name: 'Manual Handling (%)', before: 100, after: 55 }]
+  { name: 'Manual Handling (%)', before: 100, after: 55 }],
+  website: 'https://cargobot-1.vercel.app/'
 
 }];

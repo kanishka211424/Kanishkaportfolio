@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { DownloadIcon, MailIcon } from 'lucide-react';
-const cvPdfUrl = '/Kanishka_Geethan_CV.pdf';
+const cvPdfUrl = '/Kanishka Geethan_Resume.pdf';
 export function ContactCTA() {
   return (
     <section className="py-24 relative overflow-hidden">
@@ -83,7 +83,7 @@ export function ContactCTA() {
           </Link>
           <a
             href={cvPdfUrl}
-            download="Kanishka_Geethan_CV.pdf"
+            download="Kanishka Geethan_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 bg-surface border border-surface-light text-text-primary font-mono text-sm rounded hover:border-accent-teal transition-all flex items-center gap-2 w-full sm:w-auto justify-center group">
